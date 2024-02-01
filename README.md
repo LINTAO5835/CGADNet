@@ -7,7 +7,6 @@
   </div>
   <div>&nbsp;</div>
 
-
 # **简介**
 
 在资源有限的边缘环境下，实现自动驾驶中实时、高效的人行横道和导向箭头检测是一项挑战。本研究基于YOLOv8构建了一款轻量级视觉神经网络，Named Crosswalk and Guide Arrow Detection Network(CADNet)，旨在在车载高清摄像头视野下迅速而准确地检测人行横道和导向箭头，并在Jetson Origin Nano设备上实现实时检测。我们依据VanillaNet构建了高效的C2f_Van模块；通过深度可分离卷积成功降低了参数量；利用Pconv创建了轻量级的FasterDetect；并引入动态非单调聚焦机制的WIoUv3损失函数以提高检测性能。在复杂场景中，我们保持了mAP@0.5的稳定性，同时在mAP@0.5:0.95上取得了4.1%的提升,模型参数量、FLOPs和权重大小分别降低了63.81%、70.07%和63.11%，在Jetson Origin Nano上实现了高达50.35FPS的检测速度。该研究为在边缘计算设备上应用人行横道和导向箭头检测网络算法提供了实际方法
@@ -25,6 +24,7 @@
 
 
 ## 数据集
+
 <table>
 	<tr align="center">
 		<th>类型</th>
@@ -70,26 +70,17 @@
 
 
 ## 致谢
-
 MMDetection 是一款由来自不同高校和企业的研发人员共同参与贡献的开源项目。我们感谢所有为项目提供算法复现和新功能支持的贡献者，以及提供宝贵反馈的用户。 我们希望这个工具箱和基准测试可以为社区提供灵活的代码工具，供用户复现已有算法并开发自己的新模型，从而不断为开源社区提供贡献。
 
 
 ## 引用
-
 如果你在研究中使用了CADnet的数据集，请参考如下 bibtex 引用 CADNet。
 
 ```
 @article{mmdetection,
-  title   = {{MMDetection}: Open MMLab Detection Toolbox and Benchmark},
-  author  = {Chen, Kai and Wang, Jiaqi and Pang, Jiangmiao and Cao, Yuhang and
-             Xiong, Yu and Li, Xiaoxiao and Sun, Shuyang and Feng, Wansen and
-             Liu, Ziwei and Xu, Jiarui and Zhang, Zheng and Cheng, Dazhi and
-             Zhu, Chenchen and Cheng, Tianheng and Zhao, Qijie and Li, Buyu and
-             Lu, Xin and Zhu, Rui and Wu, Yue and Dai, Jifeng and Wang, Jingdong
-             and Shi, Jianping and Ouyang, Wanli and Loy, Chen Change and Lin, Dahua},
-  journal= {arXiv preprint arXiv:1906.07155},
-  year={2019}
+  title   = {lintao},
+  author  = {lintao},
+  journal = {lintao},
+  year = {2019}
 }
 ```
-
-干货满满 📘，等你来撩 💗，OpenMMLab 社区期待您的加入 👬
