@@ -77,6 +77,8 @@ LINTAO5835
 
 ## 模型
 
+![Visualization](pictures/Visualization.png)
+
 <table>
 	<tr align="center">
 		<th>Model</th>
