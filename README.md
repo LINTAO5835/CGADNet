@@ -1,3 +1,6 @@
+[![Stars](https://img.shields.io/github/stars/zhangzhengde0225/CDNet)](https://github.com/zhangzhengde0225/CDNet)
+[![Open issue](https://img.shields.io/github/issues/zhangzhengde0225/CDNet)](https://github.com/LINTAO5835/Datasets/issues)
+
 <div align="center">
   <img src="pictures/log.png" width="600"/>  
 </div>
