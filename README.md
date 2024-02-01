@@ -33,18 +33,21 @@ https://github.com/LINTAO5835/Datasets/issues)
 ![Datasets](pictures/datasets.png)
 The trainsets contains  24560 images, includes training and verification set, and the file structure format is YOLOv5 likes:
 ```
-COCO:							|			YOLO:
-|--LT_coco_datasets24560				|			|--LT_yolo_datasets24560
- --|--annotations	# All Annotations		|			 --|--train		# Training
-    --train.json					|			 --|--images		# Trainning Images
-    --val.json						|			    -- xxx.jpg
-    --test.json						|			    -- ...
- --|--train		# Training Images		|			 --|--labels		# Trainning Labels
-    -- xxx.jpg						|			    -- xxx.txt
-    -- ...						|			    -- ...
- --|--val		# Corresponding Validation	|			 --|--val		# Corresponding Validation
- --|--test		# Corresponding Testing		|			 --|--test		# Corresponding Testing
- 
+LINTAO5835
+---------------------------------------------------------------------------------------------------------------------------------
+|				COCO:				|				YOLO:				|
+---------------------------------------------------------------------------------------------------------------------------------
+|	--LT_coco_datasets24560					|	|--LT_yolo_datasets24560				|			
+|	 --|--annotations	# All Annotations		|	 --|--train		# Training			|
+|	    --train.json					|	 --|--images		# Trainning Images		|
+|	    --val.json						|	    -- xxx.jpg						|
+|	    --test.json						|	    -- ...						|
+|	 --|--train		# Training Images		|	 --|--labels		# Trainning Labels		|
+|	    -- xxx.jpg						|	    -- xxx.txt						|
+|	    -- ...						|	    -- ...						|
+|	 --|--val		# Corresponding Validation	|	 --|--val		# Corresponding Validation	|
+|	 --|--test		# Corresponding Testing		|	 --|--test		# Corresponding Testing		|
+|--------------------------------------------------------------------------------------------------------------------------------
 ```
 <table>
 	<tr align="center">
