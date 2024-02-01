@@ -27,11 +27,11 @@ https://github.com/LINTAO5835/Datasets/issues)
 - **构建了包含24560张真实复杂场景下的高清车载图像的人行横道和导向箭头检测数据集，并进行了详细标注，增强了模型对各种复杂情况的适应能力。**
 - **在Jetson Origin Nano上进行了应用部署，验证了模型在边缘设备上的实际可用性。**
 
-训练验证测试
+
 
 ## 数据集
-![Datasets](pictures/yolov8.png)
-The trainsets contains 3080 images, includes training and verification set, and the file structure format is YOLOv5 likes:
+![Datasets](pictures/datasets.png)
+The trainsets contains  24560 images, includes training and verification set, and the file structure format is YOLOv5 likes:
 ```
 COCO:							|			YOLO:
 |--LT_coco_datasets24560				|			|--LT_yolo_datasets24560
