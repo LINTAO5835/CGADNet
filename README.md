@@ -37,7 +37,7 @@ LINTAO5835
 -----------------------------------------------------------------------------------------------------
 |			COCO:			 |			YOLO:			    |
 -----------------------------------------------------------------------------------------------------
-| --LT_coco_datasets24560		    	 | |--LT_yolo_datasets24560			    |			
+| |--LT_coco_datasets24560		    	 | |--LT_yolo_datasets24560			    |			
 |  --|--annotations  # All Annotations	    	 |   --|--train		# Training		    |
 |     --train.json				 |	--|--images	# Trainning Images	    |
 |     --val.json				 |	   -- xxx.jpg				    |
