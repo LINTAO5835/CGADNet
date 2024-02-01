@@ -9,8 +9,12 @@ https://github.com/LINTAO5835/Datasets/issues)
 https://github.com/open-mmlab/mmdetection)
 </div>
 
-> [CADNet](https://arxiv.org/abs/1903.00621)
-![mmdetection](https://avatars.githubusercontent.com/u/10245193?s=48&v=4)
+
+> [1、CADNet](https://arxiv.org/abs/1903.00621)
+> 
+> [2、<img src="https://github.com/open-mmlab/mmdetection/blob/main/docs/zh_cn/_static/image/mmdet-logo.png?raw=true" height="20" width="80"/>](https://github.com/open-mmlab/mmdetection)
+>
+> [3、CADNet](https://arxiv.org/abs/1903.00621)
 
 
 
