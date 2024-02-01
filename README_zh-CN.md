@@ -16,80 +16,64 @@
 
 ## 贡献
 
-<details open>
-<summary>贡献</summary>
-
-
 - **引入VanillaBolck构建了全新的C2f_Van模块，降低了模型的复杂性，减小了延迟，提高了模型性能。**
-
-  
-
 - **采用深度可分离卷积进一步降低了网络的参数量，降低了存储需求，提高了模型的轻量化。**
-
-  
-
 - **基于Pconv开发了高效的FasterDetect检测头，既降低了网络的计算复杂度，又提升了运行速度，为在资源受限的边缘设备上的应用提供了更好的性能。**
-
-  
-
 - **应用动态非单调聚焦机制的边界框损失WIoU~v3~，以提高模型的识别准确性和泛化能力。**
-
-  
-  
 - **构建了包含24560张真实复杂场景下的高清车载图像的人行横道和导向箭头检测数据集，并进行了详细标注，增强了模型对各种复杂情况的适应能力。**
-
-  
-  
 - **在Jetson Origin Nano上进行了应用部署，验证了模型在边缘设备上的实际可用性。**
 
 
-
 ## 数据集
-
-
 
 <table>
 	<tr align="center">
 		<th>类型</th>
 		<th>train</th>
-        <th>val</th>
-        <th>test</th>
-        <th>password</th>
+		<th>val</th>
+        	<th>test</th>
+        	<th>password</th>
 	</tr>
 	<tr align="center">
 		<th>COCO</th>
-		<td>
-            <a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive 
-            </a>
-        </td>
-       <td>
-            <a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive 
-            </a>
-        </td>
-        <td rowspan="2">--</td>
-        <td rowspan="2">CVI638</td>
-    </tr>
-    <tr align="center">
+		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
+       		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
+        	<td rowspan="2">--</td>
+        	<td rowspan="2">CVI638</td>
+    	</tr>
+    	<tr align="center">
 		<th>YOLO</th>
-		<td>
-            <a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive 
-            </a>
-        </td>
-       <td>
-            <a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive 
-            </a>
-        </td>
-    </tr>
-
-​	
+  		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
+       		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>	
+    	</tr>
 
 ## 模型
-
+<table>
+	<tr align="center">
+		<th>类型</th>
+		<th>train</th>
+		<th>val</th>
+        	<th>test</th>
+        	<th>password</th>
+	</tr>
+	<tr align="center">
+		<th>COCO</th>
+		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
+       		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
+        	<td rowspan="2">--</td>
+        	<td rowspan="2">CVI638</td>
+    	</tr>
+    	<tr align="center">
+		<th>YOLO</th>
+  		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
+       		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>	
+    	</tr>
 
 
 ## 致谢
 
 MMDetection 是一款由来自不同高校和企业的研发人员共同参与贡献的开源项目。我们感谢所有为项目提供算法复现和新功能支持的贡献者，以及提供宝贵反馈的用户。 我们希望这个工具箱和基准测试可以为社区提供灵活的代码工具，供用户复现已有算法并开发自己的新模型，从而不断为开源社区提供贡献。
+
 
 ## 引用
 
@@ -110,4 +94,3 @@ MMDetection 是一款由来自不同高校和企业的研发人员共同参与�
 ```
 
 干货满满 📘，等你来撩 💗，OpenMMLab 社区期待您的加入 👬
-
