@@ -5,10 +5,12 @@
 https://github.com/LINTAO5835/Datasets)
 [![Open issue](https://img.shields.io/github/issues/LINTAO5835/Datasets)](
 https://github.com/LINTAO5835/Datasets/issues)
-
+[![mmdetection](pictures/mmdetection.png)](
+https://github.com/open-mmlab/mmdetection)
 </div>
 
 > [CADNet](https://arxiv.org/abs/1903.00621)
+![mmdetection](https://avatars.githubusercontent.com/u/10245193?s=48&v=4)
 
 
 
@@ -72,26 +74,36 @@ LINTAO5835
 </table>
 
 ## 模型
-数据集
+
 <table>
 	<tr align="center">
-		<th>类型</th>
-		<th>train</th>
-		<th>val</th>
-        	<th>test</th>
-        	<th>password</th>
+		<th>Model</th>
+		<th>mAP@0.5</th>
+		<th>mAP@0.5:0.95</th>
+        	<th>FPS</th>
+        	<th>Params</th>
+	 	<th>PLOPs</th>
+ 		<th>Weights</th>
+		<th>Download</th>
 	</tr>
 	<tr align="center">
-		<th>COCO</th>
-		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
-       		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
-        	<td rowspan="2">--</td>
-        	<td rowspan="2">CVI638</td>
+		<th>YOLOv8</th>
+		<th>98.3</th>
+		<th>69.0</th>
+        	<th>43.82</th>
+        	<th>11.13</th>
+	 	<th>28.4</th>
+ 		<th>22.5</th>
+		<td rowspan="2"><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
     	</tr>
     	<tr align="center">
-		<th>YOLO</th>
-  		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
-       		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>	
+		<th>CADNet</th>
+		<th>98.3</th>
+		<th>73.1</th>
+        	<th>50.35</th>
+        	<th>4.03</th>
+	 	<th>8.5</th>
+ 		<th>8.3</th>
     	</tr>
 </table>
 
