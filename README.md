@@ -1,17 +1,13 @@
 <div align="center">
-  <img src="C:\Users\LINTAO\Desktop\picture\log.png" width="600"/>
-  <div>&nbsp;</div>
-  <div align="center">
-    <b><font size="10">CADNet</font></b>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-  </div>
-  <div>&nbsp;</div>
+  <img src="pictures/log.png" width="600"/>  
+</div>
+
 
 # **简介**
 
 在资源有限的边缘环境下，实现自动驾驶中实时、高效的人行横道和导向箭头检测是一项挑战。本研究基于YOLOv8构建了一款轻量级视觉神经网络，Named Crosswalk and Guide Arrow Detection Network(CADNet)，旨在在车载高清摄像头视野下迅速而准确地检测人行横道和导向箭头，并在Jetson Origin Nano设备上实现实时检测。我们依据VanillaNet构建了高效的C2f_Van模块；通过深度可分离卷积成功降低了参数量；利用Pconv创建了轻量级的FasterDetect；并引入动态非单调聚焦机制的WIoUv3损失函数以提高检测性能。在复杂场景中，我们保持了mAP@0.5的稳定性，同时在mAP@0.5:0.95上取得了4.1%的提升,模型参数量、FLOPs和权重大小分别降低了63.81%、70.07%和63.11%，在Jetson Origin Nano上实现了高达50.35FPS的检测速度。该研究为在边缘计算设备上应用人行横道和导向箭头检测网络算法提供了实际方法
 
-![CADNet](C:\Users\LINTAO\Desktop\picture\yolov8.png)
+![CADNet](pictures/yolov8.png)
 
 ## 贡献
 
@@ -24,7 +20,7 @@
 
 
 ## 数据集
-
+数据集
 <table>
 	<tr align="center">
 		<th>类型</th>
@@ -45,8 +41,10 @@
   		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
        		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>	
     	</tr>
-	
+</table>
+
 ## 模型
+数据集
 <table>
 	<tr align="center">
 		<th>类型</th>
@@ -67,17 +65,17 @@
   		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
        		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>	
     	</tr>
-
+</table>
 
 ## 致谢
-MMDetection 是一款由来自不同高校和企业的研发人员共同参与贡献的开源项目。我们感谢所有为项目提供算法复现和新功能支持的贡献者，以及提供宝贵反馈的用户。 我们希望这个工具箱和基准测试可以为社区提供灵活的代码工具，供用户复现已有算法并开发自己的新模型，从而不断为开源社区提供贡献。
+CADNet是一款由来自不同高校和企业的研发人员共同参与贡献的开源项目。我们感谢所有为项目提供算法复现和新功能支持的贡献者，以及提供宝贵反馈的用户。 我们希望这个工具箱和基准测试可以为社区提供灵活的代码工具，供用户复现已有算法并开发自己的新模型，从而不断为开源社区提供贡献。
 
 
 ## 引用
 如果你在研究中使用了CADnet的数据集，请参考如下 bibtex 引用 CADNet。
 
-```
-@article{mmdetection,
+```latex
+@article{CADNet,
   title   = {lintao},
   author  = {lintao},
   journal = {lintao},
