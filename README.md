@@ -56,22 +56,19 @@ LINTAO5835
 <table>
 	<tr align="center">
 		<th>类型</th>
-		<th>train</th>
-		<th>val</th>
+		<th colspan="2">train & val</th>
         	<th>test</th>
         	<th>password</th>
 	</tr>
 	<tr align="center">
 		<th>COCO</th>
-		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
-       		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
+		<td colspan="2"><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
         	<td rowspan="2">--</td>
         	<td rowspan="2">CVI638</td>
     	</tr>
     	<tr align="center">
 		<th>YOLO</th>
-  		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
-       		<td><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>	
+  		<td colspan="2"><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
     	</tr>
 </table>
 
