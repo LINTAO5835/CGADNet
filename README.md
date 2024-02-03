@@ -64,7 +64,7 @@ LINTAO5835
 		<th>COCO</th>
 		<td colspan="2"><a href="https://www.alipan.com/s/xifh3FSzhHv">Google Drive</a> | <a href="https://www.alipan.com/s/xifh3FSzhHv">ADrive </a></td>
         	<td rowspan="2">--</td>
-        	<td rowspan="2">CVI638</td>
+        	<td rowspan="2">ltcvi638</td>
     	</tr>
     	<tr align="center">
 		<th>YOLO</th>
