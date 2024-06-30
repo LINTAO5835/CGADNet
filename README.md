@@ -9,7 +9,7 @@ https://github.com/LINTAO5835/Datasets/issues)
 </div>
 
 
-> [<img src="pictures/log.png" height="20" width="80"/>](https://github.com/LINTAO5835/Datasets) [**CADNet**](https://github.com/LINTAO5835/Datasets)
+> [<img src="pictures/log.png" height="20" width="80"/>](https://github.com/LINTAO5835/Datasets) [**CGADNet**](https://github.com/LINTAO5835/Datasets)
 > 
 > [<img src="https://raw.githubusercontent.com/ultralytics/assets/main/im/banner-yolo-vision-2023.png" height="20" width="80"/>](https://github.com/ultralytics/ultralytics) [**YOLOv8**](https://github.com/ultralytics/ultralytics)
 >
