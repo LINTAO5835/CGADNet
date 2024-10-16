@@ -58,9 +58,9 @@ to complex environment detection was realized.**
 
 
 
-## 数据集
+## DataSets
 ![Datasets](pictures/datasets.png)
-The trainsets contains  24560 images, includes training and verification set, and the file structure format is YOLOv5 likes:
+The trainsets contains  24560 images, includes training and verification set, and the file structure format is YOLOv8 likes:
 ```
 LINTAO5835
 -----------------------------------------------------------------------------------------------------
@@ -97,7 +97,7 @@ LINTAO5835
     	</tr>
 </table>
 
-## 模型
+## Models
 
 ![Visualization](pictures/Visualization.png)
 
@@ -133,12 +133,12 @@ LINTAO5835
     	</tr>
 </table>
 
-## 致谢
-CGADNet是一款由LINTAO共同参与贡献的开源项目。我们感谢所有为项目提供算法复现和新功能支持的贡献者，以及提供宝贵反馈的用户。 我们希望这个工具箱和基准测试可以为社区提供灵活的代码工具，供用户复现已有算法并开发自己的新模型，从而不断为开源社区提供贡献。
+## Acknowledge
+CGADNet is an open source project co-authored by LINTAO. We are grateful to all contributors who provided support for algorithmic replication and new functionality for the project, as well as users who provided valuable feedback. We hope that this toolkit and benchmarking will continue to contribute to the open source community by providing the community with flexible code tools for users to replicate existing algorithms and develop new models of their own.
 
 
-## 引用
-如果你在研究中使用了CGADnet的数据集，请参考如下 bibtex 引用 CADNet。
+## Reference
+If you used CGADnet datasets in your research, refer to the Bibtex reference below for CGADnet.
 
 ```latex
 
