@@ -16,9 +16,23 @@ https://github.com/LINTAO5835/Datasets/issues)
 > [<img src="https://github.com/open-mmlab/mmdetection/blob/main/docs/zh_cn/_static/image/mmdet-logo.png?raw=true" height="20" width="80"/>](https://github.com/open-mmlab/mmdetection) [**MMdetection**](https://github.com/ultralytics/ultralytics)
 
 
-# **简介**
+# **Abstract**
 
-在资源有限的边缘环境下，实现自动驾驶中实时、高效的人行横道和导向箭头检测是一项挑战。本研究基于YOLOv8构建了一款轻量级视觉神经网络，Named Crosswalk and Guide Arrow Detection Network(CADNet)，旨在在车载高清摄像头视野下迅速而准确地检测人行横道和导向箭头，并在Jetson Origin Nano设备上实现实时检测。我们依据VanillaNet构建了高效的C2f_Van模块；通过深度可分离卷积成功降低了参数量；利用Pconv创建了轻量级的FasterDetect；并引入动态非单调聚焦机制的WIoUv3损失函数以提高检测性能。在复杂场景中，我们保持了mAP@0.5的稳定性，同时在mAP@0.5:0.95上取得了4.1%的提升,模型参数量、FLOPs和权重大小分别降低了63.81%、70.07%和63.11%，在Jetson Origin Nano上实现了高达50.35FPS的检测速度。该研究为在边缘计算设备上应用人行横道和导向箭头检测网络算法提供了实际方法
+In the context of edge environments with constrained resources, realizing real-time and
+robust crosswalk and guide arrow detection poses a significant challenge for autonomous driving
+systems. This paper proposes a crosswalk and guide arrow detection network (CGADNet), a
+lightweight visual neural network derived from YOLOv8. Specifically designed for the swift and
+accurate detection of crosswalks and guide arrows within the field of view of the vehicle, the
+CGADNet can seamlessly be implemented on the Jetson Orin Nano device to achieve real-time
+processing. In this study, we incorporated a novel C2f_Van module based on VanillaBlock, employed
+depth-separable convolution to reduce the parameters efficiently, utilized partial convolution (PConv)
+for lightweight FasterDetect, and utilized a bounding box regression loss with a dynamic focusing
+mechanism—WIoUv3—to enhance the detection performance. In complex scenarios, the proposed
+method in the stability of the mAP@0.5 was maintained, resulting in a 4.1% improvement in the
+mAP@0.5:0.95. The network parameters, floating point operations (FLOPs), and weights were
+reduced by 63.81%, 70.07%, and 63.11%, respectively. Ultimately, a detection speed of 50.35 FPS was
+achieved on the Jetson Orin Nano. This research provides practical methodologies for deploying
+crosswalk and guide arrow detection networks on edge computing devices.
 
 ![CGADNet](pictures/yolov8.png)
 
