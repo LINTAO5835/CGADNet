@@ -36,14 +36,26 @@ crosswalk and guide arrow detection networks on edge computing devices.
 
 ![CGADNet](pictures/yolov8.png)
 
-## 贡献
+## Contributions
 
 - **引入VanillaBolck构建了全新的C2f_Van模块，降低了模型的复杂性，减小了延迟，提高了模型性能。**
-- **采用深度可分离卷积进一步降低了网络的参数量，降低了存储需求，提高了模型的轻量化。**
-- **基于Pconv开发了高效的FasterDetect检测头，既降低了网络的计算复杂度，又提升了运行速度，为在资源受限的边缘设备上的应用提供了更好的性能。**
-- **应用动态非单调聚焦机制的边界框损失WIoU~v3~，以提高模型的识别准确性和泛化能力。**
-- **构建了包含24560张真实复杂场景下的高清车载图像的人行横道和导向箭头检测数据集，并进行了详细标注，增强了模型对各种复杂情况的适应能力。**
-- **在Jetson Origin Nano上进行了应用部署，验证了模型在边缘设备上的实际可用性。**
+- **In this study, we adopted the minimalist design concept and used VanillaBlock to build
+an innovative C2f_Van module, effectively reducing the complexity of the model. To
+reduce the network parameters, deep separable convolutional networks were designed
+to achieve lightweight models.**
+- **To reduce the computation of the network and improve the detection speed of the
+model, a PConv-based fast detection header called FasterDetect was designed to
+replace the detection header in the Yolov8 network. Such a mechanism makes it easy
+for models to be deployed and run on edge computing devices. In addition, a boundary
+box regression loss (WIoUv3) function based on a dynamic non-monotone focusing
+mechanism was designed to improve the recognition accuracy and generalization
+ability of the model.**
+- **Through collection and meticulous annotation, the CADG database for the detection
+of crosswalks and guidance arrows on urban roads was made. The dataset contains
+24,560 high-resolution images of crosswalks and directional arrows on urban roads
+in real, complex scenarios, including rain, fog, night, dim light, and broken sidewalk
+markings. Through data training in different scenarios, the adaptability of the model
+to complex environment detection was realized.**
 
 
 
@@ -123,17 +135,25 @@ LINTAO5835
 </table>
 
 ## 致谢
-CADNet是一款由来自不同高校和企业的研发人员共同参与贡献的开源项目。我们感谢所有为项目提供算法复现和新功能支持的贡献者，以及提供宝贵反馈的用户。 我们希望这个工具箱和基准测试可以为社区提供灵活的代码工具，供用户复现已有算法并开发自己的新模型，从而不断为开源社区提供贡献。
+CGADNet是一款由LINTAO共同参与贡献的开源项目。我们感谢所有为项目提供算法复现和新功能支持的贡献者，以及提供宝贵反馈的用户。 我们希望这个工具箱和基准测试可以为社区提供灵活的代码工具，供用户复现已有算法并开发自己的新模型，从而不断为开源社区提供贡献。
 
 
 ## 引用
-如果你在研究中使用了CADnet的数据集，请参考如下 bibtex 引用 CADNet。
+如果你在研究中使用了CGADnet的数据集，请参考如下 bibtex 引用 CADNet。
 
 ```latex
-@article{CADNet,
-  title   = {lintao},
-  author  = {lintao},
-  journal = {lintao},
-  year = {2019}
+
+@Article{app14209445,
+AUTHOR = {Wang, Guangxing and Lin, Tao and Dong, Xiwei and Wang, Longchun and Leng, Qingming and Shin, Seong-Yoon},
+TITLE = {CGADNet: A Lightweight, Real-Time, and Robust Crosswalk and Guide Arrow Detection Network for Complex Scenes},
+JOURNAL = {Applied Sciences},
+VOLUME = {14},
+YEAR = {2024},
+NUMBER = {20},
+ARTICLE-NUMBER = {9445},
+URL = {https://www.mdpi.com/2076-3417/14/20/9445},
+ISSN = {2076-3417},
+ABSTRACT = {In the context of edge environments with constrained resources, realizing real-time and robust crosswalk and guide arrow detection poses a significant challenge for autonomous driving systems. This paper proposes a crosswalk and guide arrow detection network (CGADNet), a lightweight visual neural network derived from YOLOv8. Specifically designed for the swift and accurate detection of crosswalks and guide arrows within the field of view of the vehicle, the CGADNet can seamlessly be implemented on the Jetson Orin Nano device to achieve real-time processing. In this study, we incorporated a novel C2f_Van module based on VanillaBlock, employed depth-separable convolution to reduce the parameters efficiently, utilized partial convolution (PConv) for lightweight FasterDetect, and utilized a bounding box regression loss with a dynamic focusing mechanism—WIoUv3—to enhance the detection performance. In complex scenarios, the proposed method in the stability of the mAP@0.5 was maintained, resulting in a 4.1% improvement in the mAP@0.5:0.95. The network parameters, floating point operations (FLOPs), and weights were reduced by 63.81%, 70.07%, and 63.11%, respectively. Ultimately, a detection speed of 50.35 FPS was achieved on the Jetson Orin Nano. This research provides practical methodologies for deploying crosswalk and guide arrow detection networks on edge computing devices.},
+DOI = {10.3390/app14209445}
 }
 ```
