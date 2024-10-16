@@ -38,7 +38,6 @@ crosswalk and guide arrow detection networks on edge computing devices.
 
 ## Contributions
 
-- **引入VanillaBolck构建了全新的C2f_Van模块，降低了模型的复杂性，减小了延迟，提高了模型性能。**
 - **In this study, we adopted the minimalist design concept and used VanillaBlock to build
 an innovative C2f_Van module, effectively reducing the complexity of the model. To
 reduce the network parameters, deep separable convolutional networks were designed
